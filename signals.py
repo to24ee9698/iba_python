@@ -68,6 +68,6 @@ def white_noise(amplitude):
 
 
 if __name__ =='__main__':
-    gen = digital(5,5)
+    gen = white_noise(50)
     for i in range(100):
         print(next(gen))
