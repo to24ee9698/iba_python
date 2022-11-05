@@ -1,0 +1,14 @@
+penn1,"Penning 1",82,200,,real,VACUUM
+penn2,"Penning 2",82,204,,real,VACUUM
+pir_cyclo,"Pirani Cyclo",82,208,,real,VACUUM
+pir_odp,"Pirani ODP",82,212,,real,VACUUM
+pir_source,"Pirani Source",82,216,,real,VACUUM
+arc_voltage,"Source Arc PS [V]",82,104,,real,SOURCE
+arc_current,"Source Arc PS [I]",82,100,,real,SOURCE
+q1c,"Extraction Quad Q1C",1,234,,real,MAGNET
+q2c,"Extraction Quad Q2C",1,240,,real,MAGNET
+yoke,"Yoke Temperature",82,0,,real,YOKE
+mcps,"Main Coil PS Current",82,180,,real,COIL
+ccps,"Compensation Coil Current",82,160,,real,COIL
+rp_pos,"Radial Probe Position [mm]",82,92,,real,RP
+ripple,"Cyclo Ripple [V]",82,176,,real,RF

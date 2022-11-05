@@ -1,0 +1,164 @@
+location_name,location_description,location_db,location_address,location_bit,location_data_type,location_group
+df_vsp,Deflector Voltage Setpoint Digit,1,206,,int,
+df_mv1_sp,Deflector Movement 1 Setpoint Digits,1,224,,int,
+df_mv2_sp,Deflector Movement 2 Setpoint Digits,1,230,,int,
+qd1_isp,Quad 1 Current Setpoint Digits,1,248,,int,
+qd2_isp,Quad 2 Current Setpoint Digits,1,254,,int,
+hc_13_isp,Harmonic Coils 1-3 Setpoint Digits,1,280,,int,
+hc_24_isp,Harmonic Coils 2-4 Setpoint Digits,1,286,,int,
+is_az_sp,Ion Source Azimuthal Movement Setpoint Digits,1,302,,int,
+mp_isp,Compensation Coil Ps Current Setpoint Digits,1,558,,int,
+yok_t_fk_sl,Yoke Temperature Feedback Slope,11,0,,real,
+yok_t_fk_of,Yoke Temperature Feedback Offset,11,4,,real,
+c_vc_fk_sl,Cyclo Vacuum Feedback Slope,11,8,,real,
+c_vc_fk_of,Cyclo Vacuum Feedback Offset,11,10,,real,
+lrf_fwd_fk_sl,LLRF Forward Power Feedback Slope,11,20,,real,
+lrf_fwd_fk_of,LLRF Forward Power Feedback Offset,11,24,,real,
+lrf_ref_fk_sl,LLRF Reflected Power Feedback Slope,11,28,,real,
+lrf_ref_fk_of,LLRF Reflected Power Feedback Offset,11,32,,real,
+fpa_cli_fk_sl,FPA Cooling In Temperature Feedback Slope,11,36,,real,
+fpa_cli_fk_of,FPA Cooling In Temperature Feedback Offset,11,40,,real,
+fpa_clo_fk_sl,FPA Cooling Out Temperature Feedback Slope,11,44,,real,
+fpa_clo_fk_of,FPA Cooling Out Temperature Feedback Offset,11,48,,real,
+gd_ifk_sl,FPA Grid Current Feedback Slope,11,52,,real,
+gd_ifk_of,FPA Grid Current Feedback Offset,11,56,,real,
+scr_ifk_sl,FPA Screen Current Feedback Slope,11,60,,real,
+scr_ifk_of,FPA Screen Current Feedback Offset,11,64,,real,
+an_ifk_sl,FPA Anode Current Feedback Slope,11,68,,real,
+an_ifk_of,FPA Anode Current Feedback Offset,11,72,,real,
+an_vfk_sl,FPA Anode Voltage Feedback Slope,11,76,,real,
+an_vfk_of,FPA Anode Voltage Feedback Offset,11,80,,real,
+rip_fk_sl,LLRF Ripple Feedback Slope,11,84,,real,
+rip_fk_of,LLRF Ripple Feedback Offset,11,88,,real,
+fpa_wfl_fk_sl,FPA Cooling Water-Flow Feedback Slope,11,92,,real,
+fpa_wfl_fk_of,FPA Cooling Water-Flow Feedback Offset,11,96,,real,
+de1_vfk_sl,LLRF Dee1 Voltage Feedback Slope,11,108,,real,
+de1_vfk_of,LLRF Dee1 Voltage Feedback Offset,11,112,,real,
+de2_vfk_sl,LLRF Dee2 Voltage Feedback Slope,11,116,,real,
+de2_vfk_of,LLRF Dee2 Voltage Feedback Offset,11,120,,real,
+tub_ifk_sl,LLRF Tube Current Feedback Slope,11,124,,real,
+tub_ifk_of,LLRF Tube Current Feedback Offset,11,128,,real,
+dee_vsp_sl,LLRF Dee Voltage Setpoint Slope,11,140,,real,
+dee_vsp_of,LLRF Dee Voltage Setpoint Offset,11,144,,real,
+arc_vfk_sl,Ion Source Arc Voltage Feedback Slope,11,156,,real,
+arc_vfk_of,Ion Source Arc Voltage Feedback Offset,11,160,,real,
+arc_ifk_sl,Ion Source Arc Current Feedback Slope For Higher Range,11,164,,real,
+arc_ifk_of,Ion Source Arc Current Feedback Offset For Higher Range,11,168,,real,
+ft_ifk_sl,Ion Source Filament Current Feedback Slope,11,172,,real,
+ft_ifk_of,Ion Source Filament Current Feedback Offset,11,176,,real,
+arc_vsp_sl,Ion Source Arc Current Setpoint Slope,11,180,,real,
+arc_vsp_of,Ion Source Arc Current Setpoint Offset,11,184,,real,
+ft_isp_sl,Ion Source Filament Current Setpoint Slope,11,188,,real,
+ft_isp_of,Ion Source Filament Current Setpoint Offset,11,192,,real,
+df_vfk_sl,Deflector Voltage Feedback Slope,11,212,,real,
+df_vfk_of,Deflector Voltage Feedback Offset,11,216,,real,
+df_ifk_sl,Deflector Current Feedback Slope,11,220,,real,
+df_ifk_of,Deflector Current Feedback Offset,11,224,,real,
+df_vsp_sl,Deflector Voltage Setpoint Slope,11,228,,real,
+df_vsp_of,Deflector Voltage Setpoint Offset,11,232,,real,
+df_mv1_fk_sl,Deflector Movement 1 Feedback Slope,11,236,,real,
+df_mv1_fk_of,Deflector Movement 1 Feedback Offset,11,240,,real,
+df_mv2_fk_sl,Deflector Movement 2 Feedback Slope,11,244,,real,
+df_mv2_fk_of,Deflector Movement 2 Feedback Offset,11,248,,real,
+df_mv1_sp_sl,Deflector Movement 1 Setpoint Slope,11,252,,real,
+df_mv1_sp_of,Deflector Movement 1 Setpoint Offset,11,256,,real,
+df_mv2_sp_sl,Deflector Movement 2 Setpoint Slope,11,260,,real,
+df_mv2_sp_of,Deflector Movement 2 Setpoint Offset,11,264,,real,
+qd1_ifk_sl,Quad 1 P.S. Current Feedback Slope,11,276,,real,
+qd1_ifk_off,Quad 1 P.S. Current Feedback Offset,11,280,,real,
+qd2_ifk_sl,Quad 2 P.S. Current Feedback Slope,11,284,,real,
+qd2_ifk_off,Quad 2 P.S. Current Feedback Offset,11,288,,real,
+qd1_isp_sl,Quad 1 P.S. Current Setpoint Slope,11,292,,real,
+qd1_isp_off,Quad 1 P.S. Current Setpoint Offset,11,296,,real,
+qd2_isp_sl,Quad 2 P.S. Current Setpoint Slope,11,300,,real,
+qd2_isp_off,Quad 2 P.S. Current Setpoint Offset,11,304,,real,
+hc_13_ifk_sl,Harmoic Coil 1-3 Current Feedback Slope,11,316,,real,
+hc_13_ifk_of,Harmoic Coil 1-3 Current Feedback Offset,11,320,,real,
+hc_24_ifk_sl,Harmoic Coil 2-4 Current Feedback Slope,11,324,,real,
+hc_24_ifk_of,Harmoic Coil 2-4 Current Feedback Offset,11,328,,real,
+hc_13_isp_sl,Harmoic Coil 1-3 Current Setpoint Slope,11,332,,real,
+hc_13_isp_of,Harmoic Coil 1-3 Current Setpoint Offset,11,336,,real,
+hc_24_isp_sl,Harmoic Coil 2-4 Current Setpoint Slope,11,340,,real,
+hc_24_isp_of,Harmoic Coil 2-4 Current Setpoint Offset,11,344,,real,
+is_az_fk_sl,Ion Source Azimuthal Movement Feedback Slope,11,352,,real,
+is_az_fk_of,Ion Source Azimuthal Movement Feedback Offset,11,356,,real,
+is_az_sp_sl,Ion Source Azimuthal Movement Setpoint Slope,11,360,,real,
+is_az_sp_of,Ion Source Azimuthal Movement Setpoint Offset,11,364,,real,
+rp_sp_sl,RP Setpoint Slope,11,376,,real,
+rp_sp_of,RP Setpoint Offset,11,380,,real,
+rp_fk_sl,RP Feedback Slope,11,384,,real,
+rp_fk_of,RP Feedback Offset,11,388,,real,
+rp_i1_fk_sl,RP Current 1 Feedback Slope,11,392,,real,
+rp_i1_fk_of,RP Current 1 Feedback Offset,11,396,,real,
+rp_i2_fk_sl,RP Current 2 Feedback Slope,11,400,,real,
+rp_i2_fk_of,RP Current 2 Feedback Offset,11,404,,real,
+sg1_x_ifk_sl,X Steering 1 Current Feedback Slope,11,412,,real,
+sg1_x_ifk_off,X Steering 1 Current Feedback Offset,11,416,,real,
+sg2_x_ifk_sl,X Steering 2 Current Feedback Slope,11,420,,real,
+sg2_x_ifk_off,X Steering 2 Current Feedback Offset,11,424,,real,
+sg1_x_isp_sl,X Steering 1 Current Setpoint Slope,11,428,,real,
+sg1_x_isp_off,X Steering 1 Current Setpoint Offset,11,432,,real,
+sg2_x_isp_sl,X Steering 2 Current Setpoint Slope,11,436,,real,
+sg2_x_isp_off,X Steering 2 Current Setpoint Offset,11,440,,real,
+sg1_y_ifk_sl,Y Steering 1 Current Feedback Slope,11,444,,real,
+sg1_y_ifk_off,Y Steering 1 Current Feedback Offset,11,448,,real,
+sg2_y_ifk_sl,Y Steering 2 Current Feedback Slope,11,452,,real,
+sg2_y_ifk_off,Y Steering 2 Current Feedback Offset,11,456,,real,
+sg1_y_isp_sl,Y Steering 1 Current Setpoint Slope,11,460,,real,
+sg1_y_isp_off,Y Steering 1 Current Setpoint Offset,11,464,,real,
+sg2_y_isp_sl,Y Steering 2 Current Setpoint Slope,11,468,,real,
+sg2_y_isp_off,Y Steering 2 Current Setpoint Offset,11,472,,real,
+mp_ifk_sl,Compensation Coil Current Feedback Slope,11,476,,real,
+mp_ifk_of,Compensation Coil Current Feedback Offset,11,480,,real,
+mp_isp_sl,Compensation Coil Current Setpoint Slope,11,484,,real,
+mp_isp_of,Compensation Coil Current Setpoint Offset,11,488,,real,
+rp_e_lr_c3,Radial Probe Energy For Large Radius : Polynomial Coefficient 3,11,496,,real,
+rp_e_lr_c2,Radial Probe Energy For Large Radius : Polynomial Coefficient 2,11,500,,real,
+rp_e_lr_c1,Radial Probe Energy For Large Radius : Polynomial Coefficient 1,11,504,,real,
+rp_e_lr_c0,Radial Probe Energy For Large Radius : Polynomial Coefficient 0,11,508,,real,
+arc_i2fk_sl,Ion Source Arc Current Feedback Slope For Lower Range,11,512,,real,
+arc_i2fk_of,Ion Source Arc Current Feedback Offset For Lower Range,11,516,,real,
+rp_e_pr,Radial Probe Energy : Polynomial Pivot Radius (mm),11,520,,real,
+rp_e_sr_c3,Radial Probe Energy For Small Radius : Polynomial Coefficient 3,11,524,,real,
+rp_e_sr_c2,Radial Probe Energy For Small Radius : Polynomial Coefficient 2,11,528,,real,
+rp_e_sr_c1,Radial Probe Energy For Small Radius : Polynomial Coefficient 1,11,532,,real,
+rp_e_sr_c0,Radial Probe Energy For Small Radius : Polynomial Coefficient 0,11,536,,real,
+yoke,Yoke Temperature [C],82,0,,real,Cooling
+defl_i,Deflector Current [mA],82,12,,real,Deflector
+defl_v,Deflector Voltage [kV],82,16,,real,Deflector
+fpa_ac,FPA Anode Current,82,20,,real,RF
+fpa_av,FPA Anode Voltage,82,24,,real,RF
+fpa_gfb,FPA Grid Feedback,82,28,,real,RF
+fpa_sfb,FPA Screen Feedback,82,32,,real,RF
+fpa_ain,FPA Analog In Temp,82,36,,real,RF
+fpa_aout,FPA Analog Out Temp,82,40,,real,RF
+fpa_aflow,FPA Analog Flow,82,44,,real,RF
+fpa_in,FPA Water In [C],82,48,,real,Cooling
+fpa_out,FPA Water Out [C],82,52,,real,Cooling
+fpa_fwd,FPA Fwd,82,56,,real,RF
+fpa_pwr,FPA Power,82,60,,real,RF
+fpa_rfl,FPA Rfl,82,64,,real,RF
+fpa_flow,FPA Water Flow [L/min],82,68,,real,Cooling
+rp_pos,Radial Probe Position [mm],82,92,,real,Cyclo
+rf_eff,RF Efficiency,82,96,,real,RF
+is_ac,IS Arc Current,82,100,,real,Source
+is_av,IS Arc Voltage,82,104,,real,Source
+is_fc,IS Filament Current [A],82,108,,real,Source
+t1cx,Extraction Steering 1 X [A],82,112,,real,Extraction
+t1cy,Extraction Steering 1 Y [A],82,116,,real,Extraction
+t2cx,Extraction Steering 2 X [A],82,120,,real,Extraction
+t2cy,Extraction Steering 2 Y [A],82,124,,real,Extraction
+q1c,Extraction Quad 1 [A],82,144,,real,Extraction
+q2c,Extraction Quad 2 [A],82,148,,real,Extraction
+ccps,Compensation Coil PS [A],82,160,,real,Coil
+hc13,Harmonic Coil 1-3 PS [A],82,168,,real,Coil
+hc24,Harmonic Coil 2-4 PS [A],82,172,,real,Coil
+mcps,Main Coil PS [A],82,180,,real,Coil
+vdee_1,Vdee 1,82,184,,real,RF
+vdee_2,Vdee 2,82,188,,real,RF
+is_pos,IS Puller Distance [mm],82,192,,real,Source
+penn1,Penning 1,82,200,,real,Vacuum
+penn2,Penning 2,82,204,,real,Vacuum
+pir_cyclo,Pirani Cyclo,82,208,,real,Vacuum
+pir_odp,Pirani ODP,82,212,,real,Vacuum
+pir_is,Pirani Ion Source,82,216,,real,Vacuum

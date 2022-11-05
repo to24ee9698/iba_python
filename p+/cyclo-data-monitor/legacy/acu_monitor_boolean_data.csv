@@ -1,0 +1,91 @@
+"cooling : deflector", 60, 23, 0
+"cooling : radial probe", 60, 22, 0
+"cooling : source", 60, 19, 0
+"cooling : RF coupler", 60, 13, 4
+"cooling : ODP", 60, 3, 2
+"cooling : Extraction quad 1", 60, 24, 0
+"cooling : Extraction quad 2", 60, 24, 1
+"cooling : Extraction steer 1", 60, 24, 4
+"cooling : Extraction steer 2", 60, 24, 5
+"cooling : upper cavity dee H1", 60, 14, 0
+"cooling : upper cavity dee H3", 60, 14, 1
+"cooling : upper cavity c dee H1", 60, 14, 2
+"cooling : upper cavity c dee H3", 60, 14, 3
+"cooling : upper cavity rear H1", 60, 14, 4
+"cooling : upper cavity rear H3", 60, 14, 5
+"cooling : lower cavity dee H1", 60, 15, 0
+"cooling : lower cavity dee H3", 60, 15, 1
+"cooling : lower cavity c dee H1", 60, 15, 2
+"cooling : lower cavity c dee H3", 60, 15, 3
+"cooling : lower cavity rear H1", 60, 15, 4
+"cooling : lower cavity rear H3", 60, 15, 5
+"cooling : tuning cavity H1", 60, 14, 6
+"cooling : tuning cavity H3", 60, 15, 6
+"GE cooling : water flow", 60, 2, 4
+"GE cooling : tank level", 60, 2, 2
+"GE cooling : thermal switch", 60, 2, 5
+"GE cooling : resistivity low", 60, 1, 4
+"GE cooling : resistivity very low", 60, 1, 5
+"MC cooling : water flow", 60, 9, 6
+"MC cooling : tank level", 60, 9, 4
+"MC cooling : thermal switch", 60, 9, 7
+"MC cooling : water temp too high", 60, 9, 0
+"MC cooling : water temp high", 60, 9, 1
+"MC cooling : resistivity low", 60, 8, 6
+"MC cooling : resistivity very low", 60, 8, 7
+"ODP cooling : water flow", 60, 3, 2
+"ODP 1 overtemp (1=ok)", 60, 3, 4
+"ODP 2 overtemp (1=ok)", 60, 3, 5
+"ODP 1 temp ok  (0=ok)", 60, 3, 6
+"ODP 2 temp ok  (0=ok)", 60, 3, 7
+"ODP 1 valve closed", 60, 4, 0
+"ODP 1 valve open", 60, 4, 1
+"ODP 2 valve closed", 60, 4, 2
+"ODP 2 valve open", 60, 4, 3
+"Atmospheric pressure", 60, 4, 6
+"Cyclotron closed", 60, 2, 6
+"source valve open", 60, 4, 4
+"source valve closed", 60, 4, 5
+"O2 pressure OK", 60, 4, 7
+"H2 pressure OK", 60, 5, 0
+"High vaccum 1", 60, 5, 4
+"High vaccum 2", 60, 5, 5
+"Primary vacuum", 60, 5, 6
+"ODP vacuum", 60, 5, 7
+"Source vacuum", 60, 6, 0
+"Compressed air 6 bars", 60, 3, 3
+"Main coil thermal switch", 60, 8, 0
+"Upper Main coil water flow ok", 60, 8, 1
+"Lower Main coil water flow ok", 60, 8, 2
+"Main coils no internal default", 60, 8, 3
+"Main coils Regulation OK", 60, 8, 4
+"Main coils localmode", 60, 8, 5
+"Main coils PS interlock security ok", 50, 75, 6
+"Harmonic coils no internal default", 60, 10, 4
+"Harmonic coils 1-3 Regulation OK", 60, 10, 5
+"Harmonic coils 2-4 Regulation OK", 60, 10, 6
+"SSA ON", 60, 16, 0
+"IMPA door ON", 60, 16, 4
+"IMPA air flow ON", 60, 16, 5
+"IMPA grid ON", 60, 17, 2
+"IMPA anode ON", 60, 17, 0
+"IMPA screen ON", 60, 17, 4
+"FPA inj. blow air fl", 60, 11, 0
+"FPA ext. blow air fl", 60, 12, 7
+"FPA water flow OK", 60, 11, 2
+"FPA fil. current OK", 60, 11, 4
+"FPA grid ON", 60, 12, 0
+"FPA anode ON", 60, 13, 2
+"FPA screen ON", 60, 12, 1
+"Cyclo RF regulation", 60, 18, 3
+"Source in position", 60, 19, 4
+"Source out position", 60, 19, 6
+"Source unlocked", 60, 19, 1
+"Source PS localmode", 60, 20, 6
+"Arc PS no int. fault", 60, 20, 2
+"Fil PS no int. fault", 60, 20, 4
+"Arc PS regulation ok", 60, 20, 3
+"Fil PS regulation ok", 60, 20, 5
+"Radial probe in limit switch", 60, 22, 1
+"Radial probe out limit switch", 60, 22, 2
+"Radial probe initialized", 50, 91, 1

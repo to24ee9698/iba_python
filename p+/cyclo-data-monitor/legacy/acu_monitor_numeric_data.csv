@@ -1,0 +1,15 @@
+hc13,"Harmonic Coils 1-3 Current",80,0,,int,COIL
+hc24,"Harmonic Coils 2-4 Current",80,4,,int,COIL
+fpa_fwd,"FPA FWD Power [kW]",80,30,,int,RF
+fpa_rfl,"FPA RFL Power [kW]",80,32,,int,RF
+defl_v,"Deflector Voltage",80,18,,int,DEFL
+defl_i,"Deflector Current",80,16,,int,DEFL
+q1cd,"Q1C Digits",1,232,,int,MAGNET
+q2cd,"Q2C Digits",1,238,,int,MAGNET
+t1cx,"Extraction Steering T1CX",1,504,,int,MAGNET
+t1cy,"Extraction Steering T1CY",1,510,,int,MAGNET
+t2cx,"Extraction Steering T2CX",1,516,,int,MAGNET
+t2cy,"Extraction Steering T2CY",1,522,,int,MAGNET
+ccpsd,"Compensation Coil Digits",1,552,,int,COIL
+vdee,"VDee Setpoint [Digits]",1,108,,int,RF
+fpa_a,"FPA Anode PS Current",80,22,,int,RF
