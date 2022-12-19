@@ -67,7 +67,7 @@ def white_noise(amplitude):
         yield amplitude * random.random()
 
 
-if __name__ =='__main__':
+if __name__ == '__main__':
     gen = white_noise(50)
     for i in range(100):
         print(next(gen))

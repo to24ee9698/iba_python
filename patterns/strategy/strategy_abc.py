@@ -1,5 +1,6 @@
 """ Defines an abstract strategy class, which will allow different processing for different derived classes
     of this base class.  """
+
 from abc import ABCMeta, abstractmethod
 
 
