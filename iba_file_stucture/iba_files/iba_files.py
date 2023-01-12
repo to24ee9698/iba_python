@@ -1,6 +1,5 @@
 import re
 import datetime
-import tarfile
 from file_helpers import find_files_named
 
 """ Iba log files are timestamped in the file name as not all versions of linux support

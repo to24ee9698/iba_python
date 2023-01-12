@@ -53,11 +53,11 @@ def find_tar_files_in_tarball(tarball):
 
     """
     tar_files = re.compile('.tar$')
-    with tarfile.open(tarball, "r") as f:
-        for item in f.getmembers():
+    with tarfile.open(tarball, "r:gz") as tf:
+        for item in tf.getmembers():
             if re.search(tar_files, item.name) is not None:
-                file = f.extractfile(item)
-                yield file
+                found_file = tarfile.TarFile(item.name, mode='r', fileobj=tf.extractfile(item.name))
+                yield found_file  # Returns a nested tar file.
 
 
 def find_files_named(path, name):
